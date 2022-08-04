@@ -1,6 +1,11 @@
 .insta-send-card {
-  width: 35%;
+  width: auto;
+
   img {
     width: 100%;
   }
+
+  border: solid black 5px;
+  padding: 10px 80px;
+  margin: 20px;
 }

@@ -2,7 +2,6 @@
   <h2>{{ instaSend.title }}</h2>
   <img [src]="instaSend.imageUrl" [alt]="instaSend.description">
   <p>{{ instaSend.description }}</p>
-  <p>Mise en ligne : {{ instaSend.createdDate }}</p>
   <p *ngIf="instaSend.location">Localisation : {{instaSend.location}}</p>
   <p>
     <button (click)="onLike()">{{ buttonText }}</button>

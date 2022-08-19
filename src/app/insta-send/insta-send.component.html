@@ -4,7 +4,7 @@
   <p>{{ instaSend.description }}</p>
   <p *ngIf="instaSend.location">Localisation : {{instaSend.location}}</p>
   <p>
-    <button (click)="onLike()">{{ buttonText }}</button>
+    <button class="button button--skoll" (click)="onLike()"><span>{{ buttonText }}</span></button>
     🍌 : {{ instaSend.like }}</p>
 </div>
 

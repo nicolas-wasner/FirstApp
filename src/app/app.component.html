@@ -1,5 +1,3 @@
 <div class="flex">
-  <app-insta-send [instaSend]="myInsta" class="card"></app-insta-send>
-  <app-insta-send [instaSend]="myInsta1" class="card"></app-insta-send>
-  <app-insta-send [instaSend]="myInsta2" class="card"></app-insta-send>
+  <app-insta-send *ngFor="let instax of myInstas" [instaSend]="instax" class="card"></app-insta-send>
 </div>
